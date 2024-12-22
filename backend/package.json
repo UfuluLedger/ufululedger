@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-express-content-ownership",
+  "version": "1.0.0",
+  "description": "A Node.js Express application to interact with the ContentOwnership smart contract.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Born To Code Foundation",
+  "license": "MIT"
+}
