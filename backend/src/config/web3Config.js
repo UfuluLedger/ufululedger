@@ -1,5 +1,5 @@
 module.exports = {
-    ETH_NODE_URL: process.env.ETH_NODE_URL || 'https://your.ethereum.node.url',
+    ETH_NODE_URL: process.env.ETH_NODE_URL || "",
     CONTRACT_ADDRESS: process.env.CONTRACT_ADDRESS || '',
     ABI: [
   {
